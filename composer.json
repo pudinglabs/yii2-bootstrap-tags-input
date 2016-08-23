@@ -17,7 +17,7 @@
     "require": {
         "yiisoft/yii2": "*",
         "yiisoft/yii2-bootstrap": "~2.0.0",
-        "bower-asset/bootstrap-tagsinput": "~0.8"
+        "bower-asset/bootstrap-tagsinput": "@stable"
     },
     "autoload": {
         "psr-4": {

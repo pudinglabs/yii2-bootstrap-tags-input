@@ -14,7 +14,7 @@ use yii\helpers\Json;
 
 /**
  * 
- * @author Mustoharin mustoharin@yahoo.com
+ * @author Mustoharin admin@pudinglabs.web.id
  * @since 1.0
  */
 class TagsinputWidget extends InputWidget

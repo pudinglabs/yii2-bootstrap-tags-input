@@ -20,11 +20,11 @@ class TagsInputAsset extends AssetBundle
     public $sourcePath = '@bower/bootstrap-tagsinput';
 
     public $js = [
-    	'js/dist/bootstrap-tagsinput.js'
+    	'dist/bootstrap-tagsinput.js'
     ];
 
     public $css = [
-    	'js/dist/bootstrap-tagsinput.css'
+    	'dist/bootstrap-tagsinput.css'
     ];
     
     public $depends = [

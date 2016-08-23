@@ -1,0 +1,35 @@
+{
+    // package name
+    "name": "pudinglabs/yii2-bootstrap-tags-input",
+
+    // package type
+    "type": "yii2-extension",
+
+    "description": "Bootstrap tags input for Yii2 framework",
+    "keywords": ["mustoharin", "yii2", "extension", "yii2-bootstrap-tags-input", "yii2 bootstrap tags input"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/mustoharin/yii2-bootstrap-tags-input/issues",
+        "source": "https://github.com/mustoharin/yii2-bootstrap-tags-input"
+    },
+    "authors": [
+        {
+            "name": "Mustoharin",
+            "email": "mustoharin@yahoo.com"
+        }
+    ],
+
+    // package dependencies
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "bower-asset/bootstrap-tagsinput": "~0.6"
+    },
+
+    // class autoloading specs
+    "autoload": {
+        "psr-4": {
+            "pudinglabs\\tagsinput\\": ""
+        }
+    }
+}

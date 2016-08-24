@@ -36,7 +36,6 @@ class TagsinputWidget extends InputWidget
         TagsInputAsset::register($this->getView());
         $this->registerScript();
         $this->registerEvent();
-        $this->preventHitEnter();
     }
 
     public function run()
@@ -65,18 +64,4 @@ class TagsinputWidget extends InputWidget
             $this->getView()->registerJs(implode(PHP_EOL, $js));
         }
     }
-
-    protected function preventHitEnter()
-    {
-        $js =  "$(document).ready(function() {
-                    $(window).keydown(function(event){
-                        if(event.keyCode == 13) {
-                            event.preventDefault();
-                            return false;
-                        }
-                    });
-                });";
-        $this->getView()->registerJs($js);
-    }
-
 }
